@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-df = pd.read_csv("data/clean_churn.csv")
+df = pd.read_csv("clean_churn.csv")
 
 st.title(
     "European Bank Customer Churn Dashboard"
